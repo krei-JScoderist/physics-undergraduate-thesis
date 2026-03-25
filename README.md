@@ -1,4 +1,4 @@
-# physics-undergraduate-thesis
+# Orbital Stability of Trojan Planets
 This repository contains the code and results from my undergraduate thesis on the **orbital stability of Trojan planets** in exoplanetary systems. The study focuses on simulating Trojan bodies near the L4 and L5 Lagrange points of gas giants, and exploring how their long-term stability depends on planetary mass and initial angular separation.
 
 ---
