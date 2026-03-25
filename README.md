@@ -47,3 +47,9 @@ Post-processing scripts used to generate plots, stability maps, and statistical 
 
 ## Thesis
 The full thesis manuscript is included in this repository.
+
+## Citation
+
+If referencing this work, please cite the thesis:
+
+Prudente, J. S. B. (2024). Short-Term Orbital Dynamics of Hypothetical Habitable Zone Trojans in Multi-Planetary Systems. Undergraduate Thesis, University of the Philippines Baguio.
