@@ -5,34 +5,14 @@ Author: John Sen B. Prudente
 Institution: University of the Philippines Baguio  
 Year: 2024
 
----
-
 ## Overview
-Trojan planets are co-orbital bodies that share the same orbital path as a larger planet, residing near the stable Lagrange points. Their potential existence in exoplanetary systems is an active area of astrophysics research.  
-In this project, I use the `REBOUND` N-body simulation package (Rein & Tamayo) to explore the stability ranges of hypothetical Trojan planets under different initial conditions.
+This repository contains the code, datasets, and analysis used for my undergraduate thesis on the orbital stability of hypothetical Trojan planets located in the habitable zones of multi-planet exoplanetary systems.
 
----
+The study investigates the short-term orbital dynamics of Earth-mass Trojan bodies co-orbiting gas giants using N-body simulations. Simulations were performed using the REBOUND framework with the WHFast integrator, and orbital stability was evaluated using the MEGNO chaos indicator.
 
-## Methods
-- **Simulation Tool**: [REBOUND](https://rebound.readthedocs.io/en/latest/) (Rein & Tamayo, 2012–2015)  
-- **Integrator**: WHFast Integrator
-- **Parameters explored**:
-  - Mass of the gas giant (1–3 MJ)  
-  - Initial angular distance of Trojan test particles (30°–90°)  
-  - Multi-planet scenarios (selected cases)  
-
----
-
-## Results (Summary)
-- Stability regions were mapped by varying the mass of the gas giant and the angular distance of Trojan bodies.  
-- **Higher-mass gas giants** produced narrower stable angular ranges, while **lower-mass gas giants** allowed broader ranges of stability.  
-- Example:  
-  - A 2.53 MJ planet: stable Trojans found in ~40–90° separation.  
-  - A 1.42 MJ planet: stable Trojans found in ~50–90°.  
-
-(Plots and figures are available in the `results/` folder.)  
-
----
+Selected systems include:
+- 47 UMa
+- HD 108874
 
 ## Repository Structure
 
@@ -47,8 +27,6 @@ Simulation setup and outputs for Trojan stability analysis in the HD 108874 plan
 
 analysis/
 Post-processing scripts used to generate plots, stability maps, and statistical analysis of the simulation results.
-
----
 
 ## Methods
 1. Exoplanet systems were filtered using data from the NASA Exoplanet Archive.
@@ -69,4 +47,3 @@ Post-processing scripts used to generate plots, stability maps, and statistical 
 
 ## Thesis
 The full thesis manuscript is included in this repository.
-
